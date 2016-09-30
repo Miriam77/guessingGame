@@ -1,0 +1,41 @@
+
+body{
+    background-image: url("http://www.wall321.com/thumbnails/detail/20120302/stars%20artwork%20galaxy%202560x1440%20wallpaper_www.wall321.com_20.jpg");
+    background-image: cover;
+    border-image-repeat: no-repeat;
+}
+
+
+.text{
+    text-align: center;
+    color: purple;
+}
+
+
+
+.box1{
+    width:300px;
+    height:400px;
+    color: darkblue;
+    font-size: 60pt;
+}
+.box2{
+    width:300px;
+    height:400px;
+    color: darkblue;
+    font-size: 60pt;
+}
+.box3{
+    width:300px;
+    height:400px;
+    color: darkblue;
+    font-size: 60pt;
+}
+
+#btn-1{
+    margin:auto;
+  display:block;
+  width: 100px;
+  color: cornflowerblue;
+  background-color: rebeccapurple;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mim's Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Official Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="guessGame.css">
+</head>
+
+<body>
+    <h1 class="text"> Guess the Number</h1>
+
+    <!--A random three numbers sequence will be chosen, each between 0 and 9
+• None of the numbers in the sequence can be the same, so you could get 1 2 3, but not 1 2 2
+• A button will be available to process the guess
+• The user will be able to enter one guess per text box, and will have 10 total tries to guess the
+sequence of three numbers
+• If a number doesn’t match that box’s number, and doesn’t match any of the numbers in the
+sequence, the box should be red
+• If a number matches that box’s number, the box should be green
+• If a number doesn’t match that box’s number, but does match one of the numbers in the
+sequence, the box should be yellow
+• Make sure these instructions are on the screen so users know the color values
+• If the user wins, let them know, and give them the ability to start the game again
+• If the user loses, let them know, and tell them what the numbers were, and the ability to start
+the game again
+• Each textbox should only allow numbers to be entered
+• Only one character should be allowed to be entered into any field
+• Add a ShareThis button to share the page
+• Publish the page in a folder on GitHub pages, and link to it from a home page on GitHub pages< -->
+    <div>
+        <table border="20">
+            <tr id="row">
+                <td id=1 class="box1"></td>
+                <td id=2 class="box2"></td>
+                <td id=3 class="box3"></td>
+            </tr>
+        </table>
+
+    </div>
+    <button id="btn-1" onclick="check">Check</button>
+
+
+
+    <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Official Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Our project JS -->
+    <script src="guessGame.js"></script>
+
+</body>
+
+</html>
